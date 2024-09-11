@@ -14,7 +14,4 @@ public class ProfileId {
     public static ProfileId with(String profileId) {
         return new ProfileId(profileId);
     }
-    public String get() {
-        return profileId;
-    }
 }

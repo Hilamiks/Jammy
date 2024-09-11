@@ -9,6 +9,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProfilePicture {
-    private byte[] image;
+public class ProfilePicturePath {
+    private String path;
+    public String get() {
+        return this.getPath();
+    }
 }

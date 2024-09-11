@@ -11,7 +11,4 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Instrument {
     private String instrument;
-    public String get() {
-        return instrument;
-    }
 }
