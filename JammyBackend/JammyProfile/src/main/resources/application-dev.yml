@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: JammyProfile
+server:
+  port: 8001
+secret: 'hello from dev'
