@@ -14,7 +14,4 @@ public class Username {
     public static Username of(String username) {
         return new Username(username);
     }
-    public String get() {
-        return username;
-    }
 }

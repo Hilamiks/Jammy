@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class ProfileId {
     private String profileId;
-    public static ProfileId with(String profileId) {
+    public static ProfileId of(String profileId) {
         return new ProfileId(profileId);
     }
 }

@@ -17,7 +17,7 @@ import lombok.Setter;
 @Builder
 public class Profile {
 
-    private ProfileId id;
+    private ProfileId profileId;
     private Username username;
     private Instrument instrument;
     private ProfilePicturePath profilePicturePath;

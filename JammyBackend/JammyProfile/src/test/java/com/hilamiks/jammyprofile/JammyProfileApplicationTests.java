@@ -10,4 +10,9 @@ class JammyProfileApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    public void applicationContextTest() {
+        JammyProfileApplication.main(new String[] {});
+    }
+
 }

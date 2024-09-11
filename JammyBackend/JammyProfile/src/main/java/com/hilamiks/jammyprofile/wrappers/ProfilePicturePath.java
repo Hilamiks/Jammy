@@ -14,4 +14,7 @@ public class ProfilePicturePath {
     public String get() {
         return this.getPath();
     }
+    public static ProfilePicturePath of(String path) {
+        return new ProfilePicturePath(path);
+    }
 }

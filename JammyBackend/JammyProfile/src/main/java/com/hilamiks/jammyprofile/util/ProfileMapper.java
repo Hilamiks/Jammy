@@ -13,7 +13,7 @@ public class ProfileMapper {
 
     public ProfileDto toProfileDto(Profile profile) {
         return ProfileDto.builder()
-            .id(profile.getId())
+            .profileId(profile.getProfileId())
             .profilePicture(profilePictureService.getProfilePictureFromPath(profile.getProfilePicturePath()))
             .instrument(profile.getInstrument())
             .username(profile.getUsername())
